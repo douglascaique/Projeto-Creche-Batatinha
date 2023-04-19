@@ -1,18 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+
+:root{
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+}
+
 header{
-    position: absolute;
     height: 84px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    display: grid;
-    justify-content:space-between;
-    flex-direction: row;
-
-   }
-
-button{
-    font-family: font-family: 'Roboto', sans-serif;;
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
     font-size: 16px;
-    border: 1px solid;
-   }
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    height: 40px;
+    padding-left: 152px;
+    margin: 22px 0 22px 0;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-right: 125px;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    margin: 20px 0 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.butm_hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+    #butm_branco{
+    border: 2px solid #EB339B;
+    padding: 10px 20px 10px 20px;
+        }
+    #butm_branco a{
+    color: #EB339B;
+        }
+
+    #butm_rosa{
+    border: 2px solid #EB339B;
+    padding: 10px 20px 10px 20px;
+    background-color: #EB339B;
+
+        }
+    #butm_rosa a{
+    color: #FFFFFF;
+        }
+
+.textomenu{
+    display: flex;
+    align-items: flex-start;
+    font-style: normal;
+    flex-direction: column;
+    margin-left: 344px;
+    
+
+}
+
+h1{
+    margin-top: 84px;
+    height: 156px;
+    font-weight: 700px;
+    font-size: 64px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #111111;
+}
+
+h2{
+    line-height: 56px;
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(17, 17, 17, 0.48)
+}
