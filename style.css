@@ -1,0 +1,18 @@
+header{
+    position: absolute;
+    height: 84px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    display: grid;
+    justify-content:space-between;
+    flex-direction: row;
+
+   }
+
+button{
+    font-family: font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    border: 1px solid;
+   }

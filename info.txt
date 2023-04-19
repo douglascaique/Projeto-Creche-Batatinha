@@ -1,0 +1,5 @@
+cor rosa #EB339B
+background #FFFFFF
+
+ font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
