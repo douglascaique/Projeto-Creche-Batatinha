@@ -16,7 +16,7 @@
 
  - <a href="https://github.com/douglascaique"> douglascaique </a>
  - <a href="https://github.com/gabpereirac"> gabpereirac </a>
- - <a href="#"> Gustavo </a>
+ - <a href="https://github.com/Nirsore"> Nirsore </a>
  - <a href="https://github.com/Ricardo-SS"> Ricardo-SS </a>
  - <a href="https://github.com/notmath07"> notmath07</a>
  - <a href="#"> Thais </a>

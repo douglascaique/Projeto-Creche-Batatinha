@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: whitesmoke;
     height: 100vh;
     width: 100vw;
 }
 
-header{
+header {
     height: 84px;
     display: flex;
     background-color: #FFFFFF;
@@ -22,20 +22,21 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
-img{
+img {
     height: 40px;
     padding-left: 152px;
     margin: 22px 0 22px 0;
 
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
     margin-right: 125px;
     justify-content: center;
 }
 
-li{
+li {
     list-style: none;
     margin: 20px 0 20px 20px;
     font-family: 'Roboto', sans-serif;
@@ -43,14 +44,11 @@ li{
     font-weight: 400;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-
-
-
-.butm_hover{
+.butm_hover {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,35 +57,37 @@ a{
     border-radius: 4px;
 }
 
-    #butm_branco{
+#butm_branco {
     border: 2px solid #EB339B;
     padding: 10px 20px 10px 20px;
-        }
-    #butm_branco a{
-    color: #EB339B;
-        }
+}
 
-    #butm_rosa{
+#butm_branco a {
+    color: #EB339B;
+}
+
+#butm_rosa {
     border: 2px solid #EB339B;
     padding: 10px 20px 10px 20px;
     background-color: #EB339B;
 
-        }
-    #butm_rosa a{
-    color: #FFFFFF;
-        }
+}
 
-.textomenu{
+#butm_rosa a {
+    color: #FFFFFF;
+}
+
+.textomenu {
     display: flex;
     align-items: flex-start;
     font-style: normal;
     flex-direction: column;
     margin-left: 344px;
-    
+
 
 }
 
-h1{
+h1 {
     margin-top: 84px;
     height: 156px;
     font-weight: 700px;
@@ -97,12 +97,11 @@ h1{
     color: #111111;
 }
 
-h2{
+h2 {
     line-height: 56px;
     font-weight: 400;
     font-size: 48px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
-    color: rgba(17, 17, 17, 0.48)
-    fodase
+    color: rgba(17, 17, 17, 0.48) fodase
 }
