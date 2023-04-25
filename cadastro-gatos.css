@@ -240,11 +240,13 @@ input[type="file"] {
 
 /* css lista de gatos  */
 .lista-de-miau {
+    font-family: var(--Montserrat);
     background: var(--white);
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
-    margin: 0 30px;
+    margin: 20px 30px;
     padding: 20px;
     border-radius: 8px;
+    margin-bottom: 8px;
 }
 
 .cards {
@@ -261,10 +263,12 @@ input[type="file"] {
     width: 48px;
     height: 48px;
     margin-right: 12px;
+    border-radius: 50%;
+  object-fit: cover;
 }
 
 .notas {
-    border: 3px solid var(--pink);
+    border: 2px solid var(--pink);
     background: var(--white);
     color: var(--pink);
     padding: 10px 20px;
@@ -272,4 +276,12 @@ input[type="file"] {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+.notas a {
+    color: var(--pink);
+    transition: ease-in-out 0.3s;
+}
+.notas:hover {
+    font-weight: 700;
+    cursor: pointer;
 }
