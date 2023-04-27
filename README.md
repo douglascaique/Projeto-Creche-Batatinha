@@ -21,5 +21,7 @@
  - <a href="https://github.com/notmath07"> notmath07</a>
  - <a href="#"> Thais </a>
 
- ## Mentora
+ ## Mentores
  - <a href="#"> Bianca Pereiara </a>
+ - <a href="https://github.com/lppjunior"> Luiz Junior </a>
+ - <a href="https://www.linkedin.com/in/mentorvelloso/"> Marcelo Velloso </a>
