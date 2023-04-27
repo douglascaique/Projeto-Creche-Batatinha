@@ -1,4 +1,10 @@
-# Projeto educacional Desenvolve 2023.
+<p align="center">
+<img src="./assets/img/status.svg"/>
+</p>
+
+<hr>
+
+# Projeto Educacional Desenvolve 2023.
 
 ## Promovido por: Grupo Boticário
 
@@ -21,5 +27,15 @@
  - <a href="https://github.com/notmath07"> notmath07</a>
  - <a href="#"> Thais </a>
 
- ## Mentora
+ ## Mentores
  - <a href="#"> Bianca Pereiara </a>
+ - <a href="https://github.com/lppjunior"> Luiz Junior </a>
+ - <a href="https://www.linkedin.com/in/mentorvelloso/"> Marcelo Velloso </a>
+
+ ## Tecnologias
+
+<div style="display: flex; align-items: center; margin-top: 12px;">
+    <img align="center" alt="icone-html" heigth="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+    <img align="center" alt="icone-css" heigth="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+    <img align="center" alt="icone-Js" heigth="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+</div>
