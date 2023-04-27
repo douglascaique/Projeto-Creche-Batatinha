@@ -6,6 +6,17 @@
     padding: 0;
 }
 
+:root {
+    --pink: #EB339B;
+    --white: #FFFFFF;
+    --background-grey: #F5F5F5;
+    --black: #000000;
+    --btn-grey: #9F9F9F;
+    --Montserrat: 'Montserrat'; 
+    --Roboto: 'Roboto';
+
+}
+
 body {
     background: whitesmoke;
     height: 100vh;
@@ -59,23 +70,23 @@ li {
 }
 
 #butm_branco {
-    border: 2px solid #EB339B;
+    border: 2px solid var(--pink);
     padding: 10px 20px 10px 20px;
 }
 
 #butm_branco li {
-    color: #EB339B;
+    color: var(--pink);
 }
 
 #butm_rosa {
-    border: 2px solid #EB339B;
+    border: 2px solid var(--pink);
     padding: 10px 20px 10px 20px;
-    background-color: #EB339B;
+    background-color: var(--pink);
 
 }
 
 #butm_rosa li {
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .textomenu {
@@ -95,7 +106,7 @@ h1 {
     font-size: 64px;
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
-    color: #111111;
+    color: var(--black);
 }
 
 h2 {
@@ -104,5 +115,5 @@ h2 {
     font-size: 48px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
-    color: rgba(17, 17, 17, 0.48) fodase
+    color: var(--black);
 }
