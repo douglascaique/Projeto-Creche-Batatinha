@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creche Batatinha</title>
+    <link rel="stylesheet" href="./assets/css/cadastro-gatos.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <a href="/index.html">
+                    <img class="img-logo" src="/assets/img/Logo.svg" alt="Logo Creche Batatinha">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <a href="/lista-gatos.html"  id="btn-white" class="btn-hover">
+                        <li>Ver Lista de Miaus</li>
+                    </a>
+                    <a href="#" id="btn-pink" class="btn-hover">
+                        <li>Cadastrar Miau</li>
+                    </a>
+                    
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+            <div class="form">
+                <section class="top-form">
+                    <h1>Cadastro de um novo Miau</h1>
+                    <div class="input-wrappe">
+                        <input type="file" name="upload-file" id="upload-file">
+                        <label for="upload-file">+ Clique para <br> adicionar foto</label>
+                        <img id="cat-svg" src="/assets/img/cat-svg.png">
+                    </div>
+
+                </section>
+                <div class="form-info">
+                    <form class="form-inputs">
+                        <div class="input-container">
+                            <input class="input-name-m" required type="text" name="name" id="m-name" data-tipo="name">
+                            <span class="span-content">Nome do(a) Miau</span>
+
+                        </div>
+                        <div class="input-container">
+                            <input class="input-name-h" required type="text" name="name" id="h-name" data-tipo="name">
+                            <span class="span-content">Nome da pessoa dona</span>
+
+                        </div>
+                        <div class="form-btn">
+                            <button class="c-btn" type="reset">Cancelar cadastro</button>
+                            <button class="s-btn disabled" type="submit">Salvar dados</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </main>
+        <script src="./assets/js/cadastro-gatos.js"></script>
+</body>
+
+</html>

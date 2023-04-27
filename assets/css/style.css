@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+:root {
+    --pink: #EB339B;
+    --white: #FFFFFF;
+    --background-grey: #F5F5F5;
+    --black: #000000;
+    --btn-grey: #9F9F9F;
+    --Montserrat: 'Montserrat'; 
+    --Roboto: 'Roboto';
+
+}
+
+body {
     background: whitesmoke;
     height: 100vh;
     width: 100vw;
 }
 
-header{
+header {
     height: 84px;
     display: flex;
     background-color: #FFFFFF;
@@ -22,35 +33,34 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
-img{
+img {
     height: 40px;
     padding-left: 152px;
     margin: 22px 0 22px 0;
 
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
     margin-right: 125px;
     justify-content: center;
 }
 
-li{
-    list-style: none;
+a {
+    text-decoration: none;
     margin: 20px 0 20px 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-a{
-    text-decoration: none;
+li {
+    list-style: none;
+    
 }
 
-
-
-
-.butm_hover{
+.butm_hover {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,49 +69,55 @@ a{
     border-radius: 4px;
 }
 
-    #butm_branco{
-    border: 2px solid #EB339B;
+#butm_branco {
+    border: 2px solid var(--pink);
     padding: 10px 20px 10px 20px;
-        }
-    #butm_branco a{
-    color: #EB339B;
-        }
+}
 
-    #butm_rosa{
-    border: 2px solid #EB339B;
+#butm_branco li {
+    color: var(--pink);
+}
+
+#butm_rosa {
+    border: 2px solid var(--pink);
     padding: 10px 20px 10px 20px;
-    background-color: #EB339B;
+    background-color: var(--pink);
 
-        }
-    #butm_rosa a{
-    color: #FFFFFF;
-        }
+}
 
-.textomenu{
+#butm_rosa li {
+    color: var(--white);
+}
+
+.textomenu {
     display: flex;
     align-items: flex-start;
     font-style: normal;
     flex-direction: column;
     margin-left: 344px;
-    
+
 
 }
 
-h1{
+h1 {
     margin-top: 84px;
     height: 156px;
     font-weight: 700px;
     font-size: 64px;
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
-    color: #111111;
+    color: var(--black);
 }
 
-h2{
+h2 {
     line-height: 56px;
     font-weight: 400;
     font-size: 48px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
+<<<<<<<< HEAD:index.css
     color: #1111117a
+========
+    color: var(--black);
+>>>>>>>> d9c8c451be8cdfc6e6730c731baff5ded9c86c51:assets/css/style.css
 }
