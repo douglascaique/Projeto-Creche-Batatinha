@@ -123,6 +123,7 @@ li {
     cursor: pointer;
     display: flex;
     flex-direction: column;
+    opacity: 0.7;
 }
 #upload-file {
     display: none;
@@ -143,10 +144,12 @@ input[type="file"] {
 }
 
 .input-wrappe #cat-svg {
-    opacity: 0.3;
+    width: 135px;
+    height: 142px;
+    z-index: -1;
     position: absolute;
-    bottom: 385px;
-    left: 665px;
+    bottom: 373px;
+    left: 653px;
 }
 
 .input-wrappe input {
@@ -250,6 +253,64 @@ input[type="file"] {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+@media (max-width: 1440px) {
+    .input-wrappe #cat-svg {
+        bottom: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img-logo {
+        padding-left: 100px;
+    }
+
+    ul {
+        margin-right: 50px;
+    }
+
+    .form {
+        margin-left: 150px;
+    }
+
+    .input-container span {
+        left: 200px;
+    }
+    .input-wrappe #cat-svg {
+        bottom: 220px;
+        left: 460px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 900px;
+    }
+    .img-logo {
+        padding-left: 80px;
+    }
+    ul {
+        margin-right: 30px;
+    }
+    .form {
+        margin-left: 100px;;
+    }
+    .input-container span {
+        left: 150px;
+    }
+    .input-wrappe #cat-svg {
+        left: 410px;
+    }
+
+   
+}
+
+@media (max-width: 425px) {
+    .form {
+        height: 600px;
+    }
+}
+
 
 /* css lista de gatos  */
 .lista-de-miau {
