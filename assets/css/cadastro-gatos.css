@@ -47,16 +47,16 @@ ul {
     margin-right: 152px;
 }
 
-li {
-    list-style: none;
+a {
+    text-decoration: none;
     margin: 20px 0 20px 20px;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-a {
-    text-decoration: none;
+li {
+    list-style: none;
 }
 
 .btn-hover {
@@ -78,7 +78,7 @@ a {
     padding: 10px 20px 10px 20px;
 }
 
-#btn-white a {
+#btn-white li {
     color: var(--pink);
 }
 
@@ -88,7 +88,7 @@ a {
     background-color: var(--pink);
 }
 
-#btn-pink a {
+#btn-pink li {
     color: var(--white);
 }
 
@@ -223,10 +223,9 @@ input[type="file"] {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
  
-
 }
 
-.form-btn .s-btn {
+.form-btn .s-btn.disabled {
     border: 2px solid var(--btn-grey);
     background: var(--btn-grey);
     color: var(--white);
@@ -237,5 +236,65 @@ input[type="file"] {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
- 
+}
+
+.form-btn .s-btn {
+    border: 2px solid var(--pink);
+    background: var(--pink);
+    color: var(--white);
+    padding: 10px 20px;
+    margin-right: 40px;
+    border-radius: 4px;
+    width: 324px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* css lista de gatos  */
+.lista-de-miau {
+    font-family: var(--Montserrat);
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    margin: 20px 30px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pefil-miau {
+    display: flex;
+    align-items: center;
+}
+
+.foto-do-gato {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 50%;
+  object-fit: cover;
+}
+
+.notas {
+    border: 2px solid var(--pink);
+    background: var(--white);
+    color: var(--pink);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.notas a {
+    color: var(--pink);
+    transition: ease-in-out 0.3s;
+}
+.notas:hover {
+    font-weight: 700;
+    cursor: pointer;
 }

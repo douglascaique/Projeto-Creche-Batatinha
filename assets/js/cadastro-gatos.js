@@ -24,6 +24,17 @@ function salvarForm (event) {
 
 }
 
+let inputCatName = document.querySelector('#m-name')
+let inputOwnerName = document.querySelector('#h-name')
+let saveBtn = document.querySelector('.s-btn')
 
+function verify () {
+    if (inputCatName.value && inputOwnerName.value) {
+        saveBtn.classList.remove('disabled');
+    }else {
+        saveBtn.classList.add('disabled');
+    }
+}
 
-
+inputCatName.addEventListener('input', verify);
+inputOwnerName.addEventListener('input', verify);

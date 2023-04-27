@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creche Batatinha</title>
-    <link rel="stylesheet" href="cadastro-gatos.css">
+    <link rel="stylesheet" href="./assets/css/cadastro-gatos.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <div>
-                <a href="#">
-                    <img class="img-logo" src="/assets/Logo.png" alt="Logo Creche Batatinha">
+                <a href="/index.html">
+                    <img class="img-logo" src="/assets/img/Logo.svg" alt="Logo Creche Batatinha">
                 </a>
             </div>
             <nav>
                 <ul>
-                    <li id="btn-white" class="btn-hover">
-                        <a href="#">Ver Lista de Miaus</a>
-                    </li>
-                    <li id="btn-pink" class="btn-hover">
-                        <a href="#">Cadastrar Miau</a>
-                    </li>
+                    <a href="/lista-gatos.html"  id="btn-white" class="btn-hover">
+                        <li>Ver Lista de Miaus</li>
+                    </a>
+                    <a href="#" id="btn-pink" class="btn-hover">
+                        <li>Cadastrar Miau</li>
+                    </a>
+                    
                 </ul>
-                
+
             </nav>
         </header>
         <main>
@@ -34,32 +37,32 @@
                     <div class="input-wrappe">
                         <input type="file" name="upload-file" id="upload-file">
                         <label for="upload-file">+ Clique para <br> adicionar foto</label>
-                        <img id="cat-svg" src="/assets/cat svg.png">
+                        <img id="cat-svg" src="/assets/img/cat svg.png">
                     </div>
-                
+
                 </section>
                 <div class="form-info">
                     <form class="form-inputs">
                         <div class="input-container">
-                            <input class="input-name-m" required type="text" name="m-name" id="m-name"  data-tipo="name">
-                            <span>Nome do(a) Miau</span>
-                        
+                            <input class="input-name-m" required type="text" name="name" id="m-name" data-tipo="name">
+                            <span class="span-content">Nome do(a) Miau</span>
+
                         </div>
                         <div class="input-container">
-                            <input class="input-name-h" type="text" name="h-name" id="h-name" required data-tipo="name">
-                            <span>Nome da pessoa dona</span>
-                        
+                            <input class="input-name-h" required type="text" name="name" id="h-name" data-tipo="name">
+                            <span class="span-content">Nome da pessoa dona</span>
+
                         </div>
                         <div class="form-btn">
                             <button class="c-btn" type="reset">Cancelar cadastro</button>
-                            <button class="s-btn" type="submit">Salvar dados</button>
+                            <button class="s-btn disabled" type="submit">Salvar dados</button>
                         </div>
                     </form>
-                    
-                    
+
                 </div>
-            </div>  
+            </div>
         </main>
-    <script src="cadastro-gatos.js"></script>
+        <script src="./assets/js/cadastro-gatos.js"></script>
 </body>
+
 </html>
