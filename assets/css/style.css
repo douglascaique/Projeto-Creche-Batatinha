@@ -122,11 +122,4 @@ h2 {
     font-style: normal;
     font-family: 'Roboto', sans-serif;
 }
-
-    
-<<<<<<<< HEAD:index.css
-    color: #1111117a
-========
-    color: var(--black);
->>>>>>>> d9c8c451be8cdfc6e6730c731baff5ded9c86c51:assets/css/style.css
-}
+/*       TÍTULO HOME       */
