@@ -17,50 +17,50 @@
 
 }
 
+/*            MENU      */
 body {
-    background: whitesmoke;
     height: 100vh;
     width: 100vw;
+    background: #F5F5F5;
 }
 
 header {
     height: 84px;
     display: flex;
-    background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
+    background: #FFFFFF;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+
 }
 
-img {
+.img-logo {
     height: 40px;
     padding-left: 152px;
     margin: 22px 0 22px 0;
-
 }
 
 ul {
     display: flex;
     align-items: center;
-    margin-right: 125px;
     justify-content: center;
+    margin-right: 152px;
 }
 
 a {
     text-decoration: none;
     margin: 20px 0 20px 20px;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 li {
     list-style: none;
-    
 }
 
-.butm_hover {
+.btn-hover {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,23 +69,27 @@ li {
     border-radius: 4px;
 }
 
-#butm_branco {
+.btn-hover:hover {
+    font-weight: 700;
+    transition: ease-in-out .1s;
+}
+
+#btn-white {
     border: 2px solid var(--pink);
     padding: 10px 20px 10px 20px;
 }
 
-#butm_branco li {
+#btn-white li {
     color: var(--pink);
 }
 
-#butm_rosa {
+#btn-pink {
     border: 2px solid var(--pink);
     padding: 10px 20px 10px 20px;
     background-color: var(--pink);
-
 }
 
-#butm_rosa li {
+#btn-pink li {
     color: var(--white);
 }
 
@@ -95,10 +99,12 @@ li {
     font-style: normal;
     flex-direction: column;
     margin-left: 344px;
-
-
 }
+/*            MENU      */
 
+
+
+/*       TÍTULO HOME       */
 h1 {
     margin-top: 84px;
     height: 156px;
@@ -115,6 +121,9 @@ h2 {
     font-size: 48px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
+}
+
+    
 <<<<<<<< HEAD:index.css
     color: #1111117a
 ========
