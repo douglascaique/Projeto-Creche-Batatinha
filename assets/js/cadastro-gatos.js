@@ -7,7 +7,7 @@ function salvarForm (event) {
     const formImg = document.querySelector('#upload-file').files[0];
     const catPreview = document.querySelector('#cat-svg');
 
-    const formdata = {
+    const formData = {
         catname, 
         hname, 
         formImg: formImg?.name || 'assets/gato-1.jpeg'
@@ -20,7 +20,7 @@ function salvarForm (event) {
         allData = JSON.parse(savedData);
 
     }
-    allData.push(formdata); 
+    allData.push(formData); 
 
     localStorage.setItem('Form', JSON.stringify(allData));
 
@@ -61,5 +61,12 @@ function verify () {
 inputCatName.addEventListener('input', verify);
 inputOwnerName.addEventListener('input', verify);
 
+const newCat = document.createElement('.cards')
+const storedFormData = JSON.parse(localStorage.getItem('formData'));
+const listItemContent = `
+    <img src="${formData.formImg}">
+    <h2>${formData.catname}</h2>
+    
+  `;
 
 

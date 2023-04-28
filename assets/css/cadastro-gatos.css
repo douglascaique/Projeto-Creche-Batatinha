@@ -115,6 +115,7 @@ li {
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .input-wrappe {
     width: 135px;
     height: 142px;
@@ -123,39 +124,31 @@ li {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    opacity: 0.7;
+    opacity: 0.8;
 }
-#upload-file {
-    display: none;
-}
-
-input[type="file"] {
-    display: none;
-}
-
-.input-wrappe label {
-    position: relative;
-    bottom: -60px;
+  
+.input-wrappe .input-label {
     text-align: center;
+    position: relative; /* Adiciona posição relativa à label */
+}
+.input-wrappe .input-label img {
+    width: 125px;
+    position: relative; /* Adiciona posição relativa à imagem */
+    z-index: -1; /* Define z-index negativo */
+}
+  
+.input-wrappe .input-label .input-label_span {
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: var(--white);
-    z-index: 4;
+    z-index: 2;
+    position: relative;
+    bottom: 69px;
 }
-
-.input-wrappe #cat-svg {
-    width: 135px;
-    height: 142px;
-    z-index: -1;
-    position: absolute;
-    bottom: 373px;
-    left: 653px;
-}
-
+  
 .input-wrappe input {
     display: none;
 }
-
 
 
 .input-container {
