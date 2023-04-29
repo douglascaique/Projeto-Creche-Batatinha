@@ -370,11 +370,25 @@ li {
 }
 
 .top-form.notas-miau  {
-    position: relative;   
+    position: relative;
     margin-top: 46px;
     width: 40px;
     height: 40px;
     left: 40px;
+}
+.btn-voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #EB339B;
+    background-color: var(--pink);
+}
+.top-form.notas-miau.btn-voltar{
+    display: none;
 }
 .card-notas {
     display: flex;
