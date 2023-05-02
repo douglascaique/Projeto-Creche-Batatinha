@@ -449,3 +449,44 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+/* Configuração de form Info */
+.row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .px {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .justify-content-between {
+        justify-content: space-between !important;
+    }
+
+    .col-8 {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .col-4 {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
