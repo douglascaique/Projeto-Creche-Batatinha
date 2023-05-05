@@ -317,9 +317,13 @@ li {
     font-family: var(--Montserrat);
     background: var(--white);
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
-    margin: 15px 30px;
+    margin: 8px 20px;
     padding: 8px;
     border-radius: 8px;
+}
+.form-info {
+    display: flex;
+    flex-direction: column;
 }
 
 .cards {
@@ -362,11 +366,22 @@ li {
 }
 
 /* Lançamento de notas */
+.top-form.notas-miau {
+    display: flex;
+    align-items: center;
+    margin-bottom: 56px;
+   
+}
 
+.form-info.cat-grades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .form.lista-de-miau.boletim{
-    height: 756px;
+    height: 670px;
     width: 752px;
-    margin: 35px 344px 344px 344px
+    margin: 35px 344px auto;
 }
 
 .top-form.notas-miau  {
@@ -386,17 +401,19 @@ li {
     border-radius: 50%;
     border-color: #EB339B;
     background-color: var(--pink);
+    cursor: pointer;
 }
 
 hr {
     width: 672px;
     height: 0;
     border: 1px solid #DAD9D9;
-    flex: none;
-    flex-grow: 0;
+    opacity: 0.8;
 }
+
 .top-form.notas-miau.btn-voltar{
     display: none;
+    
 }
 .card-notas {
     display: flex;
@@ -406,31 +423,11 @@ hr {
     height: 75px;
     width: 672px;
 }
-
-.card-notas .materias {
-    padding-left: 40px;
-    padding-top: 15px;
-    padding-bottom: 0;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    font-size: 16px;
-}
-
-
-.card-notas .patinha {
-    display: flex;
-    flex-direction: row;
-    margin-left: 40px;
-    justify-content: flex-end;
-    align-items: center;    
-}
-
 .btn-notas {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 42px;
+    margin-top: 20px;
 }
 
 .btn-notas .notas.print-btn {
@@ -442,7 +439,7 @@ hr {
     background: var(--btn-grey);
     color: var(--white);
     padding: 10px 20px;
-    margin-right: 40px;
+    margin-right: 20px;
     border-radius: 4px;
     width: 324px;
     font-size: 16px;
@@ -450,6 +447,34 @@ hr {
     font-weight: 400;
 }
 
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+    width: 100%;
+}
+
+.pawn-icon {
+    list-style-image: url(/assets/img/patinha.svg);
+}
+
+.pawn-icon::before {
+    list-style-image: url(/assets/img/pink-pawn.svg);
+}
+
+.pawn-icon.active ~ .pawn-icon::before {
+    list-style-image: url(/assets/img/patinha.svg);
+}
+
+.rating:hover ~ .pawn-icon::before {
+    list-style-image: url(/assets/img/pink-pawn.svg);
+
+}
+
+.pawn-icon:hover ~ .pawn-icon::before {
+    list-style-image: url(/assets/img/patinha.svg);
+}
 /* Configuração de form Info */
 .row {
         display: flex;
@@ -469,7 +494,7 @@ hr {
         padding-top: .75rem;
         padding-bottom: .75rem;
         position: relative;
-        width: 100%;
+        width: 100px;
         min-height: 1px;
         padding-right: 15px;
         padding-left: 15px;
@@ -482,7 +507,7 @@ hr {
         padding-top: .75rem;
         padding-bottom: .75rem;
         position: relative;
-        width: 100%;
+        width: 150px;
         min-height: 1px;
         padding-right: 15px;
         padding-left: 15px;
