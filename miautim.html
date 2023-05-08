@@ -43,11 +43,30 @@
 
                 <section class="top-form notas-miau">
 
-                    <a href="lista-gatos.html"><button class="btn-voltar"><img  src="assets/img/Vector.svg" alt="Voltar"></button></a>
+                    <a href="lista-gatos.html"><button class="btn-voltar"  ><img  src="assets/img/Vector.svg" href="lista-gatos.html"alt="Voltar"></button></a>
 
-                    <div class="">
-                        <img src="" alt="" srcset="">
-                        <h2 id="cat-name"></h2>
+                    <div class="pefil-miau">
+                        <img class="foto-do-gato" src="./assets/img/gato-1.jpeg" alt="foto-do-miau">
+                        <h2>Buzz</h2>
+                    </div>
+                    <div>
+                        <div id="mesEAno">
+
+                        </div>
+                        <script>
+                            var mesEAno = document.getElementById("mesEAno");
+                            console.log(mesEAno);
+
+                            var hoje = new Date();
+                            var ano = hoje.getFullYear();
+                            var mes = hoje.getUTCMonth();
+
+                            mesEAno.innerText = mes +"/"+ ano;
+                        </script>
+                        <!--Java com data
+                        new Date()
+                        Date.now()
+                        -->
                     </div>
 
                 </section>
@@ -195,6 +214,7 @@
 
 
                 <!-- Botoes de baixo -->
+                
                 <div class="btn-notas">
                     <a href="#"><button class="notas print-btn">Imprimir boletim</button></a>
                     <a href="#"><button class="s-btn disabled">Salvar notas</button></a>
