@@ -38,7 +38,7 @@ header {
 .img-logo {
     height: 40px;
     padding-left: 152px;
-    margin: 22px 0 22px 0;
+    margin: 22px 0 auto;
 }
 
 ul {
@@ -123,3 +123,96 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 /*       TÍTULO HOME       */
+
+
+/* responsividade menu principal */
+
+@media (max-width: 1024px) {
+    header {
+        width: 900px;
+    }
+    .img-logo {
+        padding-left: 60px;
+    }
+
+    ul {
+        margin-left: 200px;
+    }
+    
+    .textomenu {
+        margin-left: 90px;
+    }
+
+    h1 {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 778px) {
+    header {
+        width: 1000px;
+    }
+    h2 {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 497px) {
+    h2 {
+        margin-top: 150px
+    }
+}
+
+@media (max-width: 435px) {
+    header {
+        width: 990px;
+    }
+    .textomenu {
+        display: flex;
+        align-items: center;
+        margin-left: 35px;
+    }
+
+}
+
+@media (max-width: 411px) {
+    
+    .textomenu {
+        margin-left: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 391px) {
+    
+    .textomenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h2 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 321px) {
+    
+    .textomenu {
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+}

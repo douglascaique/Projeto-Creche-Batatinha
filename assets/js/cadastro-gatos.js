@@ -61,14 +61,3 @@ function verify () {
 inputCatName.addEventListener('input', verify);
 inputOwnerName.addEventListener('input', verify);
 
-const newCat = document.createElement('.cards')
-const storedFormData = JSON.parse(localStorage.getItem('formData'));
-const listItemContent = `
-    <img src="${formData.formImg}">
-    <h2>${formData.catname}</h2>
-    
-  `;
-newCat.innerHTML = listItemContent
-
-
-

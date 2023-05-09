@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --pink: #EB339B;
+    --white: #FFFFFF;
+    --background-grey: #F5F5F5;
+    --black: #000000;
+    --btn-grey: #9F9F9F;
+    --Montserrat: 'Montserrat'; 
+    --Roboto: 'Roboto';
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F5;
+}
+
+.header {
+    background-color: var(--white);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 152px;
+    justify-content: space-between;
+}
+
+.img-logo {
+    height: 40px;
+    /* padding-left: 152px; */
+    margin: 22px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+a {
+    /* margin: 20px 0 20px 20px; */
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+.btn-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.btn-hover:hover {
+    font-weight: 700;
+    transition: ease-in-out .1s;
+}
+
+#btn-white {
+    border: 2px solid var(--pink);
+    padding: 10px 20px 10px 20px;
+}
+
+#btn-white li {
+    color: var(--pink);
+}
+
+#btn-pink {
+    border: 2px solid var(--pink);
+    padding: 10px 20px 10px 20px;
+    background-color: var(--pink);
+}
+
+#btn-pink li {
+    color: var(--white);
+}
+
+.form {
+    height: 550px;
+    width: 752px;
+    margin: 50px auto;
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 8px;
+}
+
+.top-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* css lista de gatos  */
+
+.form.lista-de-miau {
+    width: 752px;
+    height: 575px;
+    margin: 35px auto;
+}
+
+.lista-de-miau {
+    font-family: var(--Montserrat);
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    margin: 15px 30px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pefil-miau {
+    display: flex;
+    align-items: center;
+}
+
+.foto-do-gato {
+    width: 48px;
+    height: 48px;
+    margin-left: 12px;
+    margin-right: 16px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.notas {
+    border: 2px solid var(--pink);
+    background: var(--white);
+    color: var(--pink);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.notas a {
+    color: var(--pink);
+    transition: ease-in-out 0.3s;
+}
+.notas:hover {
+    font-weight: 700;
+    cursor: pointer;
+}

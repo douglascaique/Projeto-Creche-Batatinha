@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2'),
+         url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -247,75 +255,21 @@ li {
     font-weight: 400;
 }
 
-@media (max-width: 1440px) {
-    .input-wrappe #cat-svg {
-        bottom: 220px;
-    }
-}
 
-@media (max-width: 1024px) {
-    .img-logo {
-        padding-left: 100px;
-    }
-
-    ul {
-        margin-right: 50px;
-    }
-
-    .form {
-        margin-left: 150px;
-    }
-
-    .input-container span {
-        left: 200px;
-    }
-    .input-wrappe #cat-svg {
-        bottom: 220px;
-        left: 460px;
-    }
-}
-
-@media (max-width: 768px) {
-    header {
-        width: 900px;
-    }
-    .img-logo {
-        padding-left: 80px;
-    }
-    ul {
-        margin-right: 30px;
-    }
-    .form {
-        margin-left: 100px;;
-    }
-    .input-container span {
-        left: 150px;
-    }
-    .input-wrappe #cat-svg {
-        left: 410px;
-    }
-
-   
-}
-
-@media (max-width: 425px) {
-    .form {
-        height: 600px;
-    }
-}
 
 
 /* css lista de gatos  */
 
-.form.lista-de-miau {
+.form.lista-de-miau-wrapper {
     width: 752px;
     height: 575px;
-    margin: 35px 344px 344px 344px
+    margin: 35px 344px auto;
 }
 
 .lista-de-miau {
     font-family: var(--Montserrat);
     background: var(--white);
+    height: 88px;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     margin: 8px 20px;
     padding: 8px;
@@ -334,6 +288,7 @@ li {
 .pefil-miau {
     display: flex;
     align-items: center;
+    margin-bottom: 20px auto;
 }
 
 .foto-do-gato {
@@ -363,6 +318,14 @@ li {
 .notas:hover {
     font-weight: 700;
     cursor: pointer;
+} 
+
+/* Lançamento de notas */
+
+.form.lista-de-miau.boletim{
+    height: 756px;
+    width: 752px;
+    margin: 35px 344px 344px 344px
 }
 
 /* Lançamento de notas */
@@ -456,24 +419,37 @@ hr {
 }
 
 .pawn-icon {
-    list-style-image: url(/assets/img/patinha.svg);
-}
+    list-style-type: none;
+    cursor: pointer;
+    color: var(--btn-grey);
+    font-size: 30px;
+}    
 
 .pawn-icon::before {
-    list-style-image: url(/assets/img/pink-pawn.svg);
+    content:'\f1b0';
+    font-family: 'Font Awesome 5 Free';
+    color: var(--pink);
 }
 
 .pawn-icon.active ~ .pawn-icon::before {
-    list-style-image: url(/assets/img/patinha.svg);
+    content:'\f1b0';
+    font-family: 'Font Awesome 5 Free';
+    color: var(--btn-grey);
+    
 }
 
 .rating:hover ~ .pawn-icon::before {
-    list-style-image: url(/assets/img/pink-pawn.svg);
+    content:'\f1b0';
+    font-family: 'Font Awesome 5 Free';
+    color: var(--pink);
 
 }
 
 .pawn-icon:hover ~ .pawn-icon::before {
-    list-style-image: url(/assets/img/patinha.svg);
+    content:'\f1b0';
+    font-family: 'Font Awesome 5 Free';
+    color: var(--btn-grey);
+    
 }
 /* Configuração de form Info */
 .row {
@@ -515,3 +491,64 @@ hr {
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
+
+
+
+
+
+@media (max-width: 1440px) {
+    .input-wrappe #cat-svg {
+        bottom: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img-logo {
+        padding-left: 100px;
+    }
+
+    ul {
+        margin-right: 50px;
+    }
+
+    .form {
+        margin-left: 150px;
+    }
+
+    .input-container span {
+        left: 200px;
+    }
+    .input-wrappe #cat-svg {
+        bottom: 220px;
+        left: 460px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 900px;
+    }
+    .img-logo {
+        padding-left: 80px;
+    }
+    ul {
+        margin-right: 30px;
+    }
+    .form {
+        margin-left: 100px;;
+    }
+    .input-container span {
+        left: 150px;
+    }
+    .input-wrappe #cat-svg {
+        left: 410px;
+    }
+
+   
+}
+
+@media (max-width: 425px) {
+    .form {
+        height: 600px;
+    }
+}

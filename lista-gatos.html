@@ -11,31 +11,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/cadastro-gatos.css">
+    <link rel="stylesheet" href="./assets/css/lista-gatos.css">
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <div>
-                <a href="/index.html">
-                    <img class="img-logo" src="/assets/img/Logo.svg" alt="Logo Creche Batatinha">
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <a href="/lista-gatos.html"  id="btn-white" class="btn-hover">
-                        <li>Ver Lista de Miaus</li>
+        <header class="header">
+            <nav class="navbar">
+                <div>
+                    <a href="/index.html">
+                        <img class="img-logo" src="/assets/img/Logo.svg" alt="Logo Creche Batatinha">
                     </a>
-                    <a href="/cadastro-gatos.html" id="btn-pink" class="btn-hover">
-                        <li>Cadastrar Miau</li>
-                    </a>
-                </ul>
-
+                </div>
+                <div>
+                    <ul class="menu">
+                        <a href="/lista-gatos.html"  id="btn-white" class="btn-hover">
+                            <li>Ver Lista de Miaus</li>
+                        </a>
+                        <a href="/cadastro-gatos.html" id="btn-pink" class="btn-hover">
+                            <li>Cadastrar Miau</li>
+                        </a>
+                    </ul>
+                </div>
             </nav>
         </header>
+
         <main>
-            <div class="form lista-de-miau">
+            <div class="form lista-de-miau-wrapper">
                 <section class="top-form">
                     <h1>Lista de Miau</h1>
 
@@ -82,7 +84,8 @@
                 </div>
             </div>
         </main>
-        <!-- <script src="index.js"></script> -->
+        <script src="./assets/js/lista-gatos.js"></script>
+        <script src="./assets/js/notas-gatos.js"></script>
 </body>
 
 </html> 
