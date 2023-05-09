@@ -13,7 +13,7 @@
 ## Titulo do projeto: Creche Batatinha
 
 ### Descrição
-- Desenvover uma pagina web para uma creche.
+- Desenvolver uma pagina web para uma creche.
 
 ### Finalidade
 - Desenvolver conhecimentos de programação obtidos no programa desenvolve 2023

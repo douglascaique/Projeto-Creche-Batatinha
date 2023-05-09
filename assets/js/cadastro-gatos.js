@@ -68,5 +68,7 @@ const listItemContent = `
     <h2>${formData.catname}</h2>
     
   `;
+newCat.innerHTML = listItemContent
+
 
 

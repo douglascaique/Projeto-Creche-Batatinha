@@ -369,17 +369,59 @@ li {
     margin: 35px 344px 344px 344px
 }
 
+<<<<<<< HEAD
 .top-form.notas-miau  {
     position: relative;   
+=======
+/* Lançamento de notas */
+
+.form.lista-de-miau.boletim{
+    height: 756px;
+    width: 752px;
+    margin: 35px 344px 344px 344px
+}
+
+.top-form.notas-miau  {
+    position: relative;
+>>>>>>> main
     margin-top: 46px;
     width: 40px;
     height: 40px;
     left: 40px;
 }
+<<<<<<< HEAD
 .card-notas {
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+.btn-voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #EB339B;
+    background-color: var(--pink);
+}
+
+hr {
+    width: 672px;
+    height: 0;
+    border: 1px solid #DAD9D9;
+    flex: none;
+    flex-grow: 0;
+}
+.top-form.notas-miau.btn-voltar{
+    display: none;
+}
+.card-notas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+>>>>>>> main
     flex-direction: column;
     height: 75px;
     width: 672px;
@@ -387,6 +429,15 @@ li {
 
 .card-notas .materias {
     padding-left: 40px;
+<<<<<<< HEAD
+=======
+    padding-top: 15px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 16px;
+>>>>>>> main
 }
 
 
@@ -394,7 +445,12 @@ li {
     display: flex;
     flex-direction: row;
     margin-left: 40px;
+<<<<<<< HEAD
     
+=======
+    justify-content: flex-end;
+    align-items: center;    
+>>>>>>> main
 }
 
 .btn-notas {
@@ -419,4 +475,49 @@ li {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+<<<<<<< HEAD
 }
+=======
+}
+
+/* Configuração de form Info */
+.row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .px {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .justify-content-between {
+        justify-content: space-between !important;
+    }
+
+    .col-8 {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .col-4 {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+>>>>>>> main
