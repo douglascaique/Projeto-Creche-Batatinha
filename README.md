@@ -28,7 +28,7 @@
  - <a href="#"> Thais </a>
 
  ## Mentores
- - <a href="#"> Bianca Pereiara </a>
+ - <a href="https://github.com/BiancaPereira"> Bianca Pereiara </a>
  - <a href="https://github.com/lppjunior"> Luiz Junior </a>
  - <a href="https://www.linkedin.com/in/mentorvelloso/"> Marcelo Velloso </a>
 
